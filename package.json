@@ -9,16 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@turnkey/http": "^1.2.0",
+    "@turnkey/viem": "^0.2.4",
+    "@turnkey/webauthn-stamper": "^0.1.0",
+    "axios": "^1.5.1",
     "next": "13.5.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "viem": "^1.16.2"
   },
   "devDependencies": {
     "@types/node": "20.8.4",
     "@types/react": "18.2.27",
     "@types/react-dom": "18.2.12",
+    "autoprefixer": "^10.4.16",
     "eslint": "8.51.0",
     "eslint-config-next": "13.5.4",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
     "typescript": "5.2.2"
   }
 }
